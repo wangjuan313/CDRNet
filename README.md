@@ -1,6 +1,6 @@
 # CDRNet: Accurate Cup-to-Disc Ratio Measurement with Tight Bounding Box Supervision in Fundus Photography
 
-This project hosts the codes for the implementation of **CDRNet: Accurate Cup-to-Disc Ratio Measurement with Tight Bounding Box Supervision in Fundus Photography Using Deep Learning** [[Journal]([CDRNet: accurate cup-to-disc ratio measurement with tight bounding box supervision in fundus photography using deep learning | SpringerLink](https://link.springer.com/article/10.1007/s11042-022-14183-2))] [[arXiv](https://arxiv.org/abs/2110.00943)].
+This project hosts the codes for the implementation of **CDRNet: Accurate Cup-to-Disc Ratio Measurement with Tight Bounding Box Supervision in Fundus Photography Using Deep Learning** [[Journal](https://link.springer.com/article/10.1007/s11042-022-14183-2)] [[arXiv](https://arxiv.org/abs/2110.00943)].
 
 ## Dataset
 
