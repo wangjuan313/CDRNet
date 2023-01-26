@@ -3,8 +3,10 @@ import torch.nn as nn
 
 __all__ = ['Conv2d_bn','VGG_backbone','vgg_backbone']
 
+
 CFG_A = [64, 64, 'M', 128, 128, 'M', 256, 256, 'M', 
          512, 512, 'M', 512, 512, 'M', 1024]
+
 
 class Conv2d_bn(nn.Module):
     def __init__(self, in_channels, out_channels):
@@ -68,6 +70,7 @@ def vgg_backbone(input_dim=3, cfg=CFG_A):
     in_channels_list = [cfg[index] for index in return_index]
     return backbone, return_layers, in_channels_list
 
+
 def vgg_backbone_v2(input_dim=3, cfg=CFG_A):
     backbone = VGG_backbone(input_dim, cfg)
     backbone = backbone.backbone
@@ -78,6 +81,7 @@ def vgg_backbone_v2(input_dim=3, cfg=CFG_A):
     return_layers = {f"layer{index}": str(k) for k, index in enumerate(return_index)}
     in_channels_list = [cfg[index-1] for index in return_index]
     return backbone, return_layers, in_channels_list
+
 
 if __name__=='__main__':
     vgg_backbone()

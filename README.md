@@ -1,8 +1,6 @@
 # CDRNet: Accurate Cup-to-Disc Ratio Measurement with Tight Bounding Box Supervision in Fundus Photography
 
-This project hosts the codes for the implementation of [CDRNet: Accurate Cup-to-Disc Ratio Measurement with Tight Bounding Box Supervision in Fundus Photography]() (under review).
-
-
+This project hosts the codes for the implementation of **CDRNet: Accurate Cup-to-Disc Ratio Measurement with Tight Bounding Box Supervision in Fundus Photography Using Deep Learning** [[Journal]([CDRNet: accurate cup-to-disc ratio measurement with tight bounding box supervision in fundus photography using deep learning | SpringerLink](https://link.springer.com/article/10.1007/s11042-022-14183-2))] [[arXiv](https://arxiv.org/abs/2110.00943)].
 
 ## Dataset
 
@@ -63,20 +61,21 @@ python tools/report_glaucoma_reader_study.py
 Please consider citing our paper in your publications if the project helps your research.
 
 ```
-@article{wang2021cdrnet,
-  title     =  {CDRNet: Accurate Cup-to-Disc Ratio Measurement with Tight Bounding Box Supervision in Fundus Photography},
-  author    =  {Wang, Juan and Xia, Bin},
-  journal   =  {submitted to TMI},
-  year      =  {2021}
+@article{wang2022cdrnet,
+  title={CDRNet: accurate cup-to-disc ratio measurement with tight bounding box supervision in fundus photography using deep learning},
+  author={Wang, Juan and Xia, Bin},
+  journal={Multimedia Tools and Applications},
+  pages={1--23},
+  year={2022},
+  publisher={Springer}
 }
 
 @inproceedings{wang2021bounding,
-  title     =  {Bounding Box Tightness Prior for Weakly Supervised Image Segmentation},
-  author    =  {Wang, Juan and Xia, Bin},
-  booktitle =  {24th International Conference on Medical Image Computing & Computer Assisted Intervention},
-  year      =  {2021}
+  title={Bounding box tightness prior for weakly supervised image segmentation},
+  author={Wang, Juan and Xia, Bin},
+  booktitle={Medical Image Computing and Computer Assisted Intervention--MICCAI 2021: 24th International Conference, Strasbourg, France, September 27--October 1, 2021, Proceedings, Part II},
+  pages={526--536},
+  year={2021},
+  organization={Springer}
 }
 ```
-
-
-
